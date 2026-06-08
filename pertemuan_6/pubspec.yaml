@@ -1,0 +1,23 @@
+name: catatan_mahasiswa_cloud
+description: "Aplikasi Catatan Mahasiswa berbasis Cloud Server - Tugas Pertemuan 5"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^11.0.0
+  http: ^1.1.0 # Diperlukan untuk ApiClient REST API
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  # BARIS DI BAWAH INI WAJIB AKTIF (TRUE) AGAR IKON GRAFIS TIDAK BERUBAH JADI KOTAK X
+  uses-material-design: true
